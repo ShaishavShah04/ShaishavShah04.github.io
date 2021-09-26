@@ -1,0 +1,11 @@
+.about-me {
+    color: black;
+    background-color: white;
+    height: 60vh;
+}
+
+.about-me h2 {
+    font-size: 40px;
+    padding: 100px;
+    text-align: center;
+}
