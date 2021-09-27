@@ -10,7 +10,7 @@ function LandingPage() {
     const LandingPageInfo = {
         "first_name": "SHAISHAV",
         "last_name": "SHAH",
-        "degree": "Computing Science w/ Business Minor",
+        "degree": "Computing Science / Business Minor",
         "social":[
                 {
                   "name":"linkedin",

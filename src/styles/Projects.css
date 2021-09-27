@@ -16,7 +16,6 @@
     width: 80vw;
     justify-content: space-around;
     flex-direction: row;
-    border: red 1px solid;
     flex-wrap: wrap;
     margin: 0 auto;
 }

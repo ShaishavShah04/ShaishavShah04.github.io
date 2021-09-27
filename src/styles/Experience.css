@@ -1,0 +1,54 @@
+.resume {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.education {
+    display: flex;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 20px;
+    border-bottom: 1px rgba(128, 128, 128, 0.575) solid;
+    
+}
+
+.experience {
+    display: flex;
+    width: 80vw;
+    border: blue 1px solid;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.section-title {
+    width: 35%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    border: green 2px solid;
+    padding-top: 20px;
+}
+
+.content {
+    width: 65%;
+    border: green 2px solid;
+}
+
+.education-card {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.name {
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.education-card p {
+    font-size: 20px;
+    color: grey;
+}
