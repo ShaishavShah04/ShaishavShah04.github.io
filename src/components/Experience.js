@@ -10,6 +10,21 @@ function Experience() {
         }
     ]
 
+    const experienceInfo = [
+        {
+            "name":"Coding Instructor",
+            "company":"Discover Coding",
+            "timeline":"Apr 2021 - Sep 2021",
+            "description":"lorem ipsum",
+        },
+        {
+            "name":"President",
+            "company":"Tech Talk Club",
+            "timeline":"Sep 2019 - Jun 2020",
+            "description":"lorem ipsum",
+        }
+    ]
+
   return (
     <div className="resume">
         <div className="education">
@@ -19,7 +34,7 @@ function Experience() {
                     return (
                         <div className="education-card">
                             <div className="name">{eduObj.name}</div>
-                            <p>{eduObj.degree} &#9724; {eduObj.timeline}</p>
+                            <h3>{eduObj.degree} &#9724; {eduObj.timeline}</h3>
                         </div>
                         )
                     }
@@ -30,10 +45,20 @@ function Experience() {
         </div>
 
         <div className="experience">
-        <div className="section-title" ><u>Experience</u></div>
-            <div className="content">
-                
-            </div>
+            <div className="section-title" ><u>Experience</u></div>
+                <div className="content">
+                    {experienceInfo.map( function(expObj) {
+                            return (
+                                <div className="experience-card">
+                                    <div className="name">{expObj.name}</div>
+                                    <h3>{expObj.company} &#9724; {expObj.timeline}</h3>
+                                    <p>{expObj.description}</p>
+                                </div>
+                                )
+                            }
+                        )
+                    }
+                </div>
         </div>
     </div>
   )

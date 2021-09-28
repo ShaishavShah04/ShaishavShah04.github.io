@@ -4,9 +4,10 @@
     flex-direction: column;
     justify-content: space-around;
     color: whitesmoke;
+    padding: 5vh 5vw;
 }
 
-.education {
+.education, .experience {
     display: flex;
     width: 80vw;
     margin: 20px auto;
@@ -15,30 +16,21 @@
     
 }
 
-.experience {
-    display: flex;
-    width: 80vw;
-    border: blue 1px solid;
-    margin: 20px auto;
-    padding: 20px;
-}
-
 .section-title {
     width: 35%;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     font-variant: small-caps;
-    border: green 2px solid;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content {
     width: 65%;
-    border: green 2px solid;
 }
 
-.education-card {
+.education-card, .experience-card {
     padding: 20px;
     font-weight: bold;
 }
@@ -48,7 +40,24 @@
     margin-bottom: 20px;
 }
 
-.education-card p {
+.resume h3 {
     font-size: 20px;
     color: grey;
 }
+
+.resume p {
+    margin-top: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1000px) {
+    .education, .experience {
+        flex-direction: column;
+    }
+
+    .section-title {
+        color: teal;
+    }
+}
+

@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgb(49, 49, 49);
+    padding: 8vh 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer a {
+    color: teal;
+    transition-duration: 0.5s;
+}
+
+
+.footer a:hover {
+    color: white;
+}
+
+.footer .mail-icon {
+    margin: 0 auto;
+}
+
+#copy-right {
+    background-color: rgb(49, 49, 49);
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}

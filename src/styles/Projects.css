@@ -1,7 +1,9 @@
 .projects-page {
     display: flex;
+    color: black;
     flex-direction: column;
     background-color: grey;
+    padding-bottom: 8vh;
 }
 
 
@@ -21,13 +23,15 @@
 }
 
 .project-card {
-    background: whitesmoke;
+    background-color: white;
     border-radius: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 300px;
     width: 40%;
     margin: 20px;
     padding: 20px;
-    color:rgba(65, 105, 225, 0);
     transition-duration: 0.3s;
 }
 
@@ -44,8 +48,7 @@
 }
 
 .project-card:hover {
-    background-color: rgba(0, 0, 0, 0.705);
-    color: white;
+    background-image: none;
 }
 
 
@@ -59,3 +62,4 @@
         width: 80%;
     }
 }
+
