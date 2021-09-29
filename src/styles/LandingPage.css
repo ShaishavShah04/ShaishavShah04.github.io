@@ -63,3 +63,8 @@
 .navbar-btn:hover {
     color: rgb(0, 174, 255);
 }
+
+#button {
+    position: absolute;
+    bottom: 30px;
+}

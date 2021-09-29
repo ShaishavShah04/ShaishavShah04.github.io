@@ -35,7 +35,7 @@ function Projects() {
     ]
 
     return (
-        <div className="projects-page">
+        <div className="projects-page" id="projects-page">
             <h2>My Projects!</h2>
             <div className="project-container">
                 {ProjectPageInfo.map( function(projObj){

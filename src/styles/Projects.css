@@ -2,8 +2,9 @@
     display: flex;
     color: black;
     flex-direction: column;
-    background-color: grey;
+    background-image: url('backgrounds/white-texture.png');
     padding-bottom: 8vh;
+    min-height: 100vh;
 }
 
 
@@ -33,6 +34,7 @@
     margin: 20px;
     padding: 20px;
     transition-duration: 0.3s;
+    border: 2px black solid;
 }
 
 .project-card h4 {

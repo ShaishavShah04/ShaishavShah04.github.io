@@ -5,6 +5,7 @@
     justify-content: space-around;
     color: whitesmoke;
     padding: 5vh 5vw;
+    min-height: 100vh;
 }
 
 .education, .experience {

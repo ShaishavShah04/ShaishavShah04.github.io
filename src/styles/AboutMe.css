@@ -1,7 +1,9 @@
 .about-me {
     color: black;
     background-color: white;
-    height: 60vh;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
 }
 
 .about-me h2 {

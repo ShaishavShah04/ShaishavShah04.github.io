@@ -4,6 +4,7 @@ import { GitHub } from '@mui/icons-material';
 import { LinkedIn } from '@mui/icons-material';
 import { FileDownload } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 function LandingPage() {
     
@@ -38,7 +39,7 @@ function LandingPage() {
 
         
 
-        <div className="landing-page">
+        <div className="landing-page" id="landing-page">
             <div class="outer-box">
 
                 {/* <div id="vertical-dash"></div> */}
@@ -59,6 +60,12 @@ function LandingPage() {
 
             <div class="lower-box">
                 <h3>Hi! &#128075; I'm an undergraduate {LandingPageInfo.degree} student at the University of Alberta. I like to design and build applications that save time in the tasks around us!</h3>
+            </div>
+
+            <div id="button">
+                <IconButton href="#about-me">
+                    <ArrowCircleDownIcon color="primary" fontSize="large"/>
+                </IconButton>
             </div>
         </div>
     )

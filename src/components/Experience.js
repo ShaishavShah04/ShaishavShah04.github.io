@@ -26,7 +26,7 @@ function Experience() {
     ]
 
   return (
-    <div className="resume">
+    <div className="resume" id="resume">
         <div className="education">
             <div className="section-title"><u>Education</u></div>
             <div className="content">

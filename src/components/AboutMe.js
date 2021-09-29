@@ -6,7 +6,7 @@ function AboutMe() {
   const AboutMeInfo = {};
 
   return (
-    <div className="about-me">
+    <div className="about-me" id="about-me">
       <h2>About Me!</h2>
       <p> There isn't much about me tbh.</p>
     </div>
