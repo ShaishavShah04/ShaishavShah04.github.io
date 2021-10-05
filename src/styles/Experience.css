@@ -2,7 +2,7 @@
     display: flex;
     background-color: black;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     color: whitesmoke;
     padding: 5vh 5vw;
     min-height: 100vh;
@@ -11,10 +11,9 @@
 .education, .experience {
     display: flex;
     width: 80vw;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
     border-bottom: 1px rgba(128, 128, 128, 0.575) solid;
-    
 }
 
 .section-title {

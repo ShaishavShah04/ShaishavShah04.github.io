@@ -2,7 +2,7 @@
     display: flex;
     color: black;
     flex-direction: column;
-    background-image: url('backgrounds/white-texture.png');
+    background-color: grey;
     padding-bottom: 8vh;
     min-height: 100vh;
 }
@@ -26,14 +26,10 @@
 .project-card {
     background-color: white;
     border-radius: 20px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     min-height: 300px;
     width: 40%;
     margin: 20px;
-    padding: 20px;
-    transition-duration: 0.3s;
+    padding: 15px;
     border: 2px black solid;
 }
 
@@ -49,10 +45,11 @@
     color: cyan;
 }
 
-.project-card:hover {
-    background-image: none;
+.project-card img {
+    border: 2px black solid;
+    margin: 20px 0;
+    width: 80%;
 }
-
 
 @media screen and (max-width: 1000px) {
     .project-container {

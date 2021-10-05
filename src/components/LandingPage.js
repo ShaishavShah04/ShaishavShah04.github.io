@@ -5,6 +5,7 @@ import { LinkedIn } from '@mui/icons-material';
 import { FileDownload } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+import { Link } from 'react-scroll';
 
 function LandingPage() {
     
@@ -63,9 +64,9 @@ function LandingPage() {
             </div>
 
             <div id="button">
-                <IconButton href="#about-me">
+                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={800} href="" >
                     <ArrowCircleDownIcon color="primary" fontSize="large"/>
-                </IconButton>
+                </Link>
             </div>
         </div>
     )

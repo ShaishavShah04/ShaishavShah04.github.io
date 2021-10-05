@@ -40,9 +40,11 @@ function Projects() {
             <div className="project-container">
                 {ProjectPageInfo.map( function(projObj){
                     return (
-                        <div className="project-card" style={{ backgroundImage: `url(${projObj['proj-img']})`}} >
+                        <div className="project-card">
+                            <h4>{projObj['proj-name']}</h4>
+                            <img src= {`${projObj['proj-img']}`} />
                             <div className="proj-text">
-                                <h4>{projObj['proj-name']}</h4>
+                                
                                 <br/>
                                 {projObj['proj-description'].map( (sentence) => <p>{sentence}<br/><br/></p>  )}
                                 <br/>
@@ -52,6 +54,7 @@ function Projects() {
                                 <br/>
                                 <a href={projObj['proj-link']}>{<Link/>}</a>
                             </div>
+
                         </div>
 
                     )
