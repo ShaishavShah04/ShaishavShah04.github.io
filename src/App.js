@@ -12,7 +12,7 @@ function App() {
       {/* Mainpage */}
       <LandingPage />
       {/* About Me */}
-      <AboutMe />
+      {/* <AboutMe /> */}
       {/* Projects */}
       <Projects />
       {/* Experience */}

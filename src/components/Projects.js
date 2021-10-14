@@ -2,9 +2,9 @@ import React from 'react'
 import "../styles/Projects.css";
 import Link from '@mui/icons-material/Link';
 
-function Projects() {
+class Projects extends React.Component {
 
-    const ProjectPageInfo = [
+    ProjectPageInfo = [
     {
         "proj-name": "Algorithmic CryptoCurrency Scanner",
         "proj-description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
@@ -34,34 +34,36 @@ function Projects() {
     }
     ]
 
-    return (
-        <div className="projects-page" id="projects-page">
-            <h2>My Projects!</h2>
-            <div className="project-container">
-                {ProjectPageInfo.map( function(projObj){
-                    return (
-                        <div className="project-card">
-                            <h4>{projObj['proj-name']}</h4>
-                            <img src= {`${projObj['proj-img']}`} />
-                            <div className="proj-text">
-                                
-                                <br/>
-                                {projObj['proj-description'].map( (sentence) => <p>{sentence}<br/><br/></p>  )}
-                                <br/>
-                                <b>Created Using:</b>
-                                <br/>
-                                <p>{projObj['proj-tech']}</p>
-                                <br/>
-                                <a href={projObj['proj-link']}>{<Link/>}</a>
+    render() {
+        return (
+            <div className="projects-page" id="projects-page">
+                <h2>PROJECTS</h2>
+                <div className="project-container">
+                    {this.ProjectPageInfo.map( function(projObj){
+                        return (
+                            <div className="project-card">
+                                <h4><u>{projObj['proj-name']}</u></h4>
+                                <img src= {`${projObj['proj-img']}`} />
+                                <div className="proj-text">
+                                    
+                                    <br/>
+                                    {projObj['proj-description'].map( (sentence) => <p>{sentence}<br/><br/></p>  )}
+                                    <br/>
+                                    <b>Created Using:</b>
+                                    <br/>
+                                    <p>{projObj['proj-tech']}</p>
+                                    <br/>
+                                    <a href={projObj['proj-link']}>{<Link/>}</a>
+                                </div>
+
                             </div>
 
-                        </div>
-
-                    )
-                } )}
+                        )
+                    } )}
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Projects

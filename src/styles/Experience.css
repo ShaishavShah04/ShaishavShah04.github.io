@@ -1,63 +1,82 @@
 .resume {
     display: flex;
-    background-color: black;
+    background-color: darkgray;
     flex-direction: column;
     justify-content: center;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     padding: 5vh 5vw;
     min-height: 100vh;
 }
 
 .education, .experience {
     display: flex;
-    width: 80vw;
-    margin: 30px auto;
+    flex-direction: column;
+    width: 60vw;
+    margin: 10px auto;
     padding: 20px;
-    border-bottom: 1px rgba(128, 128, 128, 0.575) solid;
+    
 }
 
 .section-title {
-    width: 35%;
-    text-align: center;
-    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: left;
     font-weight: bold;
-    font-variant: small-caps;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
-.content {
-    width: 65%;
-}
 
 .education-card, .experience-card {
+    margin: 25px 0;
     padding: 20px;
     font-weight: bold;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.education-card ul {
+    color: rgb(37, 37, 37);
+    width: 80%;
+    font-weight: lighter;
+    margin: 10px;
+    line-height: 150%;
+
 }
 
 .name {
     font-size:30px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .resume h3 {
     font-size: 20px;
-    color: grey;
+    color: rgb(66, 66, 66);
 }
 
 .resume p {
     margin-top: 20px;
-    color: white;
+    color: rgb(37, 37, 37);
     font-weight: normal;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
     .education, .experience {
         flex-direction: column;
+        width: 80%;
     }
 
     .section-title {
-        color: teal;
+        font-size: 46px;
+        text-align: center;
     }
 }
 
+@media screen and (max-width: 500px) {
+    .section-title {
+        font-size: 36px;
+        padding: 0;
+    }
+    
+}
