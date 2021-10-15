@@ -11,7 +11,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      resumeData: {}
+      resumeData: {},
+      info_loaded: false
     }
   }
 
@@ -21,7 +22,7 @@ class App extends React.Component {
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
+        this.setState({resumeData: data, info_loaded: true});
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
@@ -35,21 +36,29 @@ class App extends React.Component {
   }
 
   render () {
-    return (
-      <div className="App">
-        
-        {/* Mainpage */}
-        <LandingPage Data={this.state.resumeData.LandingPageInfo}/>
-        {/* About Me */}
-        {/* <AboutMe /> */}
-        {/* Projects */}
-        <Projects />
-        {/* Experience */}
-        <Experience />
-        {/* Footer */}
-        <Footer />
-      </div>
-    );
+
+    if (this.state.info_loaded) {
+
+      return (
+        <div className="App">
+          
+          {/* Mainpage */}
+          <LandingPage data={this.state.resumeData.LandingPageInfo}/>
+          {/* About Me */}
+          {/* <AboutMe /> */}
+          {/* Projects */}
+          <Projects />
+          {/* Experience */}
+          <Experience />
+          {/* Footer */}
+          <Footer />
+        </div>
+      );
+    } else {
+      return (
+        <p>Loading...</p>
+      )
+    }
   }
 }
 

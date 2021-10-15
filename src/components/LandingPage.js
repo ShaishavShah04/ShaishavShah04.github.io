@@ -9,20 +9,18 @@ import { Link } from 'react-scroll';
 
 class LandingPage extends React.Component {
 
-    "LandingPageInfo" = this.props.Data;
-
     "social" = [
             {
                 "name":"linkedin",
                 "url":"https://www.linkedin.com/in/shaishavshah04/",
                 "className":"lp-linkedin",
-                "icon": GitHub
+                "icon": LinkedIn
             },
             {
                 "name":"github",
                 "url":"http://github.com/ShaishavShah04",
                 "className":"lp-github",
-                "icon": LinkedIn
+                "icon": GitHub
             },
             {
                 "name":"resume",
@@ -30,11 +28,12 @@ class LandingPage extends React.Component {
                 "className":"lp-resume",
                 "icon": FileDownload
             }
-            ]
-
-
+        ]
 
     render() {
+
+    this.LandingPageInfo = this.props.data;
+    
     return (
 
         <div className="landing-page" id="landing-page">
@@ -65,13 +64,14 @@ class LandingPage extends React.Component {
                     <ArrowCircleDownIcon  fontSize="large"/>
                 </Link>
             </div>
+
         </div>
     )
     }
 }
 
 LandingPage.defaultProps = {
-    Data: {
+    data: {
         "first_name": "SHAISHAV",
         "last_name": "SHAH",
         "degree": "Computing Science / Business Minor",
