@@ -8,33 +8,31 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-scroll';
 
 class LandingPage extends React.Component {
-    
-    "LandingPageInfo" = {
-        "first_name": "SHAISHAV",
-        "last_name": "SHAH",
-        "degree": "Computing Science / Business Minor",
-        "social":[
-                {
-                  "name":"linkedin",
-                  "url":"https://www.linkedin.com/in/shaishavshah04/",
-                  "className":"lp-linkedin",
-                  "icon": GitHub
-                },
-                {
-                  "name":"github",
-                  "url":"http://github.com/ShaishavShah04",
-                  "className":"lp-github",
-                  "icon": LinkedIn
-                },
-                {
-                  "name":"resume",
-                  "url":"",
-                  "className":"lp-resume",
-                  "icon": FileDownload
-                }
-              ]
 
-    };
+    "LandingPageInfo" = this.props.Data;
+
+    "social" = [
+            {
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/in/shaishavshah04/",
+                "className":"lp-linkedin",
+                "icon": GitHub
+            },
+            {
+                "name":"github",
+                "url":"http://github.com/ShaishavShah04",
+                "className":"lp-github",
+                "icon": LinkedIn
+            },
+            {
+                "name":"resume",
+                "url":"",
+                "className":"lp-resume",
+                "icon": FileDownload
+            }
+            ]
+
+
 
     render() {
     return (
@@ -47,8 +45,8 @@ class LandingPage extends React.Component {
 
                 <div class="navbar">
                     {
-                    this.LandingPageInfo.social.map( (socialObj) => 
-                        <IconButton>
+                    this.social.map( (socialObj) => 
+                        <IconButton href={socialObj.url}>
                             <socialObj.icon className="navbar-btn" />
                         </IconButton>
                     ) 
@@ -69,6 +67,14 @@ class LandingPage extends React.Component {
             </div>
         </div>
     )
+    }
+}
+
+LandingPage.defaultProps = {
+    Data: {
+        "first_name": "SHAISHAV",
+        "last_name": "SHAH",
+        "degree": "Computing Science / Business Minor",
     }
 }
 

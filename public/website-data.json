@@ -1,0 +1,26 @@
+{
+    "LandingPageInfo" : {
+    "first_name": "SHAISHAV",
+    "last_name": "SHAH",
+    "degree": "Computing Science / Business Minor",
+    "social":[
+      {
+        "name":"LinkedIn",
+        "url":"https://www.linkedin.com/in/shaishavshah04/",
+        "className":"lp-linkedin"
+      },
+      {
+        "name":"Github",
+        "url":"http://github.com/ShaishavShah04",
+        "className":"lp-github"
+      },
+      {
+        "name":"Resume",
+        "url":"",
+        "className":"lp-resume"
+      }
+    ]
+
+    }
+
+}
