@@ -64,12 +64,18 @@
 @media screen and (max-width: 1500px) {
     .education, .experience {
         flex-direction: column;
-        width: 80%;
+        width: 80vw;
+        padding: 20px;
+        
     }
 
     .section-title {
         font-size: 46px;
         text-align: center;
+    }
+
+    .education-card, .experience-card {
+        margin: 25px 0;
     }
 }
 
