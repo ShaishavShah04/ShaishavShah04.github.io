@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/LandingPage.css";
 import { GitHub } from '@mui/icons-material';
 import { LinkedIn } from '@mui/icons-material';
-import { FileDownload } from '@mui/icons-material';
+import { Description } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-scroll';
@@ -11,23 +11,17 @@ class LandingPage extends React.Component {
 
     "social" = [
             {
-                "name":"linkedin",
+                "name":"LinkedIn",
                 "url":"https://www.linkedin.com/in/shaishavshah04/",
                 "className":"lp-linkedin",
                 "icon": LinkedIn
             },
             {
-                "name":"github",
+                "name":"Github",
                 "url":"http://github.com/ShaishavShah04",
                 "className":"lp-github",
                 "icon": GitHub
             },
-            {
-                "name":"resume",
-                "url":"",
-                "className":"lp-resume",
-                "icon": FileDownload
-            }
         ]
 
     render() {
@@ -45,11 +39,14 @@ class LandingPage extends React.Component {
                 <div class="navbar">
                     {
                     this.social.map( (socialObj) => 
-                        <IconButton href={socialObj.url}>
+                        <IconButton href={socialObj.url} title={socialObj.name} >
                             <socialObj.icon className="navbar-btn" />
                         </IconButton>
                     ) 
                     }
+                    <IconButton href={this.LandingPageInfo.resume_link} target="_blank">
+                            <Description className="navbar-btn" />
+                    </IconButton>
                 </div>
 
 
@@ -67,14 +64,6 @@ class LandingPage extends React.Component {
 
         </div>
     )
-    }
-}
-
-LandingPage.defaultProps = {
-    data: {
-        "first_name": "SHAISHAV",
-        "last_name": "SHAH",
-        "degree": "Computing Science / Business Minor",
     }
 }
 

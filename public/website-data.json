@@ -3,6 +3,7 @@
     "first_name": "SHAISHAV",
     "last_name": "SHAH",
     "degree": "Computing Science / Business Minor",
+    "resume_link": "./ShaishavShah-Resume.pdf",
     "social":[
       {
         "name":"LinkedIn",
@@ -20,7 +21,55 @@
         "className":"lp-resume"
       }
     ]
-
-    }
-
+    },
+    "ProjectPageInfo":  [
+      {
+          "proj-name": "Algorithmic CryptoCurrency Scanner",
+          "proj-description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
+          "proj-tech":"Python, AWS (Hosting), CCXT Library (Data), Twilio Client (Messages) ",
+          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
+          "proj-img": "./media/scanner.png"
+      }, 
+      {
+          "proj-name": "Cash Flow Management App",
+          "proj-description":["This is an android app that utilizes Firebase's OCR model to scan reciepts and summarize the spending habits in form of a pie chart."],
+          "proj-tech":"Java, Firebase, React Native, Machine Learning (OCR)",
+          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
+          "proj-img": "/media/app.png"
+      },
+      {
+          "proj-name": "Stock Widget",
+          "proj-description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
+          "proj-tech":"Python, AWS (Hosting), CCXT Library (Data), Twilio Client (Messages) ",
+          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
+          "proj-img": "media/scanner.png"
+      }, {
+          "proj-name": "Portfolio Website",
+          "proj-description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
+          "proj-tech":"Python, AWS (Hosting), CCXT Library (Data), Twilio Client (Messages) ",
+          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
+          "proj-img": "media/scanner.png"
+      }
+      ],
+      "educationInfo" :[
+        {   "name":"University of Alberta",
+            "degree":"Specialization in Computing Science with Business Minor",
+            "timeline":"2020 - 2024",
+            "notes":["Relevant Courses: Practical Programming Methadology, Software Engineering, Databases, Algorithms and Data Structures", "GPA: 4.0 / 4.0"]
+        }
+      ],
+      "experienceInfo" :[
+        {
+            "name":"Coding Instructor",
+            "company":"Discover Coding",
+            "timeline":"Apr 2021 - Sep 2021",
+            "description":["lorem ipsum", "Thatss crazzy bro"]
+        },
+        {
+            "name":"President",
+            "company":"Tech Talk Club",
+            "timeline":"Sep 2019 - Jun 2020",
+            "description":["lorem ipsum", "cool"]
+        }
+    ]
 }

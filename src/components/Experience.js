@@ -3,30 +3,12 @@ import '../styles/Experience.css';
 
 class Experience extends React.Component {
 
-    educationInfo = [
-        {   "name":"University of Alberta",
-            "degree":"Specialization in Computing Science with Business Minor",
-            "timeline":"2020 - 2024",
-            "notes":["Relevant Courses: Practical Programming Methadology, Software Engineering, Databases, Algorithms and Data Structures", "GPA: 4.0 / 4.0"]
-        }
-    ]
+    educationInfo = this.props.edu_data;
 
-    experienceInfo = [
-        {
-            "name":"Coding Instructor",
-            "company":"Discover Coding",
-            "timeline":"Apr 2021 - Sep 2021",
-            "description":["lorem ipsum"],
-        },
-        {
-            "name":"President",
-            "company":"Tech Talk Club",
-            "timeline":"Sep 2019 - Jun 2020",
-            "description":["lorem ipsum", "cool"],
-        }
-    ]
+    experienceInfo = this.props.exp_data;
 
     render() {
+
         return (
             <div className="resume" id="resume">
 

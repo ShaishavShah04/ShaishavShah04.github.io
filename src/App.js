@@ -47,9 +47,9 @@ class App extends React.Component {
           {/* About Me */}
           {/* <AboutMe /> */}
           {/* Projects */}
-          <Projects />
+          <Projects data={this.state.resumeData.ProjectPageInfo}/>
           {/* Experience */}
-          <Experience />
+          <Experience edu_data = {this.state.resumeData.educationInfo} exp_data = {this.state.resumeData.experienceInfo}/>
           {/* Footer */}
           <Footer />
         </div>
