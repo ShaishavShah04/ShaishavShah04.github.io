@@ -39,7 +39,7 @@
 .landing-page .lower-box {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 60vw;
-    color: rgb(255, 255, 255);
+    color: rgb(185, 185, 185);
     padding: 1vw;
     margin-top: 1vw;
     align-items: center;
@@ -65,7 +65,7 @@
 }
 
 .landing-page h1{
-    color: whitesmoke;
+    color:  whitesmoke;
     font-size: 8vw;
     padding: 0px;
     margin: 0 2vw;
