@@ -43,7 +43,6 @@ class Experience extends React.Component {
                                             <div className="name">{expObj.name}</div>
                                             <h3>{expObj.company} &#9724; {expObj.timeline}</h3>
                                             {expObj.description.map( sentence => <p>{sentence}<br/></p>) }
-                                            {/* <p>{expObj.description}</p> */}
                                         </div>
                                         )
                                     }

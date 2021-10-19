@@ -31,15 +31,15 @@ class LandingPage extends React.Component {
     return (
 
         <div className="landing-page" id="landing-page">
-            <div class="outer-box">
+            <div className="outer-box">
 
                 {/* <div id="vertical-dash"></div> */}
-                <h1 class="name">{this.LandingPageInfo.first_name + " " + this.LandingPageInfo.last_name}</h1>
+                <h1 className="name">{this.LandingPageInfo.first_name + " " + this.LandingPageInfo.last_name}</h1>
 
-                <div class="navbar">
+                <div className="navbar">
                     {
                     this.social.map( (socialObj) => 
-                        <IconButton href={socialObj.url} title={socialObj.name} >
+                        <IconButton href={socialObj.url} title={socialObj.name} key={socialObj.name}>
                             <socialObj.icon className="navbar-btn" />
                         </IconButton>
                     ) 
@@ -52,7 +52,7 @@ class LandingPage extends React.Component {
 
             </div>
 
-            <div class="lower-box">
+            <div className="lower-box">
                 <h3>Hi! &#128075; I'm an undergraduate {this.LandingPageInfo.degree} student at the University of Alberta. I like to design and build applications that save time in the tasks around us!</h3>
             </div>
 
