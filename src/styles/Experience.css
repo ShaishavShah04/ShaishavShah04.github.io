@@ -2,7 +2,6 @@
     display: flex;
     background-color: #3B3B3B;
     background-image: url('backgrounds/subtle-prism.svg');
-    background-attachment: fixed;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
@@ -88,5 +87,20 @@
         font-size: 36px;
         padding: 0;
     }
-    
+
+    .name {
+        font-size:22px;
+    }
+    .resume h3 {
+        font-size: 18px;
+    }
+    .education-card ul {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .resume p {
+        margin-top: 20px;
+    }
+
 }
