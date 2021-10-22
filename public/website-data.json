@@ -34,22 +34,28 @@
           "proj-name": "Cash Flow Management App",
           "proj-description":["This is an android app that utilizes Firebase's OCR model to scan reciepts and summarize the spending habits in form of a pie chart."],
           "proj-tech":"Java, Firebase, React Native, Machine Learning (OCR)",
-          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
+          "proj-link":"https://github.com/ShaishavShah04/Cash-Flow-Management-App",
           "proj-img": "/media/app.png"
       },
       {
           "proj-name": "Stock Widget",
-          "proj-description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
-          "proj-tech":"Python, AWS (Hosting), CCXT Library (Data), Twilio Client (Messages) ",
-          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
-          "proj-img": "media/scanner.png"
+          "proj-description":["Search up any stock you want and find relevant information such as live prices, change, dividend yield, etc.","The widget also contains an animated graph with the stock price, stock-specific news articles links, and trending stocks worldwide. Just enter the stock ticker you want into the search bar!"],
+          "proj-tech":"Python, BeautifulSoup4, Matplotlib",
+          "proj-link":"https://github.com/ShaishavShah04/Stock-Widget",
+          "proj-img": "media/stock-widget.png"
       }, {
-          "proj-name": "Portfolio Website",
-          "proj-description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
-          "proj-tech":"Python, AWS (Hosting), CCXT Library (Data), Twilio Client (Messages) ",
-          "proj-link":"https://github.com/ShaishavShah04/Crypto-Scanner",
-          "proj-img": "media/scanner.png"
-      }
+          "proj-name": "Memories - A Social Platform",
+          "proj-description":["A fully responsive MERN stack application where users can create, view, update, delete, and interact with memories shared by other users.","The backend (created using Express) can handle all CRUD requests sent by the client-side form."],
+          "proj-tech":"MongoDB Cloud, Express JS, React JS, Redux, Node JS, Heroku & Netlify",
+          "proj-link":"https://github.com/ShaishavShah04/MERN-Memories-Project",
+          "proj-img": "media/ss.png"
+      }, {
+        "proj-name": "Personal Portfolio",
+        "proj-description":["My personal portfolio website created using React. The website is coded to read data from a JSON file to ease updating. This is purely front-end."],
+        "proj-tech":"React JS, HTML, CSS",
+        "proj-link":"https://github.com/ShaishavShah04/Portfolio-Website",
+        "proj-img": "media/website.PNG"
+      }        
       ],
       "educationInfo" :[
         {   "name":"University of Alberta",
@@ -63,13 +69,13 @@
             "name":"Coding Instructor",
             "company":"Discover Coding",
             "timeline":"Apr 2021 - Sep 2021",
-            "description":["lorem ipsum", "Thatss crazzy bro"]
+            "description":["Working as a Coding Instructor at a local academy, I strengthened programming fundamentals of students by delivering lesson plans relating to HTML, CSS, JS, and block coding (varying by age). I leveraged my skills to further the academy's vision of equipping youth for the digital economy. "]
         },
         {
             "name":"President",
             "company":"Tech Talk Club",
             "timeline":"Sep 2019 - Jun 2020",
-            "description":["lorem ipsum", "cool"]
+            "description":["Tech Talk is a club I co-founded in high school with the goal of spreading both coding skills and digital literacy within our communities. We created workshops that taught Python, HTML, CSS. My role in this was leading and coodinating a team of volunteers that would teach these workshops."]
         }
     ]
 }

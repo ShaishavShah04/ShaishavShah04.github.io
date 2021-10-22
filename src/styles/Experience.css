@@ -49,7 +49,7 @@
 
 .name {
     font-size:30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -59,9 +59,12 @@
 }
 
 .resume p {
+    width: 55%;
     margin-top: 20px;
-    color: rgb(37, 37, 37);
-    font-weight: normal;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    line-height: 1.5rem;
+    
 }
 
 @media screen and (max-width: 1500px) {
@@ -79,6 +82,11 @@
 
     .education-card, .experience-card {
         margin: 25px 0;
+    }
+
+    .resume p {
+        width: 70%;
+        margin-top: 10px;
     }
 }
 
@@ -100,6 +108,7 @@
     }
 
     .resume p {
+        width: 90%;
         margin-top: 20px;
     }
 

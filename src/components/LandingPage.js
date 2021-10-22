@@ -39,7 +39,7 @@ class LandingPage extends React.Component {
                 <div className="navbar">
                     {
                     this.social.map( (socialObj) => 
-                        <IconButton href={socialObj.url} title={socialObj.name} key={socialObj.name}>
+                        <IconButton href={socialObj.url} title={socialObj.name} key={socialObj.name} target="_blank">
                             <socialObj.icon className="navbar-btn" />
                         </IconButton>
                     ) 
