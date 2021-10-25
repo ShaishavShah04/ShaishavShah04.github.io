@@ -1,4 +1,5 @@
 .projects-page {
+    background-color: whitesmoke;
     display: flex;
     color: black;
     flex-direction: column;
