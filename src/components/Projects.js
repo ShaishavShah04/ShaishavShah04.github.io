@@ -25,7 +25,7 @@ class Projects extends React.Component {
                                     <br/>
                                     <p>{projObj['proj-tech']}</p>
                                     <br/>
-                                    <a href={projObj['proj-link']}>{<Link/>}</a>
+                                    <a href={projObj['proj-link']} target="_blank">{<Link/>}</a>
                                 </div>
 
                             </div>
