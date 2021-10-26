@@ -44,7 +44,7 @@ class LandingPage extends React.Component {
                         </IconButton>
                     ) 
                     }
-                    <IconButton href={this.LandingPageInfo.resume_link} target="_blank">
+                    <IconButton href={this.LandingPageInfo.resume_link} title="Resume" target="_blank">
                             <Description className="navbar-btn" />
                     </IconButton>
                 </div>
