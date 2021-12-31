@@ -3,10 +3,12 @@ import "../styles/Projects.css";
 import Link from '@mui/icons-material/Link';
 
 class Projects extends React.Component {
-
+ 
     ProjectPageInfo = this.props.data;
 
-    render() {
+    render() 
+    
+    {
         return (
             <div className="projects-page" id="projects-page">
                 <h2>PROJECTS</h2>
