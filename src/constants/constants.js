@@ -1,40 +1,37 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
+      "name": "Algorithmic CryptoCurrency Scanner",
+      "description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
+      "tech":["Python", "AWS (Hosting)", "CCXT Library (Data)", "Twilio (Messaging)"],
+      "link":"https://github.com/ShaishavShah04/Crypto-Scanner",
+      "img": "./media/scanner.png"
+  }, 
+  {
+      "name": "Cash Flow Management App",
+      "description":["This is an android app that utilizes Firebase's OCR model to scan reciepts and summarize the spending habits in form of a pie chart."],
+      "tech": ["Java","Firebase","Machine Learning (OCR)"],
+      "link":"https://github.com/ShaishavShah04/Cash-Flow-Management-App",
+      "img": "/media/app.png"
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+      "name": "Stock Widget",
+      "description":["Search up any stock you want and find relevant information such as live prices, change, dividend yield, etc.","The widget also contains an animated graph with the stock price, stock-specific news articles links, and trending stocks worldwide. Just enter the stock ticker you want into the search bar!"],
+      "tech":["Python", "BeautifulSoup4", "Matplotlib"],
+      "link":"https://github.com/ShaishavShah04/Stock-Widget",
+      "img": "media/stock-widget.png"
+  }, {
+      "name": "Memories - A Social Platform",
+      "description":["A fully responsive MERN stack application where users can create, view, update, delete, and interact with memories shared by other users.","The backend (created using Express) can handle all CRUD requests sent by the client-side form."],
+      "tech":["MongoDB Cloud", "Express JS", "React JS", "Redux", "Node JS", "Heroku", "Netlify"],
+      "link":"https://github.com/ShaishavShah04/MERN-Memories-Project",
+      "img": "media/ss.png"
+  }, {
+    "name": "Personal Portfolio",
+    "description":["My personal portfolio website created using React. The website is coded to read data from a JSON file to ease updating. This is purely front-end."],
+    "tech":["React JS", "HTML", "CSS"],
+    "link":"https://github.com/ShaishavShah04/Portfolio-Website",
+    "img": "media/website.PNG"
+  }        
 ];
 
 export const TimeLineData = [

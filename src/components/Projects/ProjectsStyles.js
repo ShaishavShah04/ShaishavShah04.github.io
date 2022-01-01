@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  max-height: 250px;
   object-fit: cover;
   overflow: hidden;
-`
+  border-radius: 25px;
+  transition: height 2s;
+`;
 
 export const GridContainer = styled.section`
 display: grid;
@@ -27,24 +29,30 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  padding: 20px;
+  transition-property: height;
+  transition-duration: 4s;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+  }
+  &:hover img {
+    max-height: 100%;
   }
 `;
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
 
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
-  letter-spacing: 2px;
-  color: #9cc9e3;
-  padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  background: -webkit-linear-gradient(0deg,#cc99ff, #5cd6d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  padding: 15px 0;
 `;
 
 export const Hr = styled.hr`
@@ -65,7 +73,6 @@ export const Intro = styled.div`
   line-height: 18px;
 `;
 
-
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
@@ -79,34 +86,19 @@ export const CardInfo = styled.p`
 }
 `;
 
-
-export const UtilityList = styled.ul`
-  list-style-type: none;
-  padding: 0;
+export const TagList = styled.div`
   display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: flex-start;
 `;
 
-export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
-&:hover{
-  background: #801414;
-
-}
+export const Tag = styled.div`
+  border-radius: 5px;
+  color: #d8bfbf;
+  padding: 3px 15px;
+  font-size: 1.5rem;
+  margin: 5px 5px 0 0;
+  background-color: #000000;
 `;
-
-export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
-padding: 2rem;
-`
-export const Tag = styled.li`
-color: #d8bfbf;
-font-size: 1.5rem;
-`
