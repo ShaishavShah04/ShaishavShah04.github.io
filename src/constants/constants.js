@@ -41,3 +41,12 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+// Set of projects
+export const allTags = new Set();
+
+projects.forEach( p => {
+  p.tech.forEach( t => allTags.add(t))
+})
+
+// export allTags;
