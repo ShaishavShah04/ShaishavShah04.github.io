@@ -1,11 +1,11 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { BsPlug } from "react-icons/bs";
+import { DiFirebase, DiCode } from 'react-icons/di';
+import { BsPlug, BsFillAspectRatioFill } from "react-icons/bs";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section id="tech" fullHeight style={{ marginTop: "20vh"}}>
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
@@ -13,47 +13,61 @@ const Technologies = () =>  (
       I've worked with a range of technologies, from back-end to front-end and everything in between!
     </SectionText>
     <List>
+
+      
       <ListItem>
-        <DiFirebase size="3rem" />
+        <BsFillAspectRatioFill size="3rem" style={{marginBottom: "20px"}}/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
             <ul>
-              <li>React.js</li>
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
+              <li><ListParagraph>React.js</ListParagraph></li>
+              <li><ListParagraph>HTML/CSS</ListParagraph></li>
+              <li><ListParagraph>JavaScript</ListParagraph></li>
             </ul>
-          </ListParagraph>
         </ListContainer>
       </ListItem>
+      
       <ListItem>
-        <BsPlug size="3rem" />
+        <BsPlug size="3rem" style={{marginBottom: "20px"}}/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
             <ul>
-              <li>Express.js</li>
-              <li>Node.js</li>
-              <li>Python</li>
-              <li>C / C++</li>
+              <li><ListParagraph>Express.js</ListParagraph></li>
+              <li><ListParagraph>Node.js</ListParagraph></li>
+              <li><ListParagraph>Python</ListParagraph></li>
+              <li><ListParagraph>C / C++</ListParagraph></li>
             </ul>
-          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiFirebase size="3rem" style={{marginBottom: "20px"}} />
         <ListContainer>
           <ListTitle>Database</ListTitle>
+            <ul>
+              <li><ListParagraph>SQL</ListParagraph></li>
+              <li><ListParagraph>MongoDB</ListParagraph></li>
+            </ul>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiCode size="3rem" style={{marginBottom: "20px"}}/>
+        <ListContainer>
+          <ListTitle>Learning</ListTitle>
           <ListParagraph>
             <ul>
-              <li>MySQL</li>
-              <li>MongoDB</li>
+              <li>ASP.NET (C#)</li>
+              <li>Java</li>
+              <li>Vue.js</li>
             </ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
+  
     </List>
   </Section>
+
+
 );
 
 export default Technologies;

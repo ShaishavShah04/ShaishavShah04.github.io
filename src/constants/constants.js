@@ -48,5 +48,3 @@ export const allTags = new Set();
 projects.forEach( p => {
   p.tech.forEach( t => allTags.add(t))
 })
-
-// export allTags;
