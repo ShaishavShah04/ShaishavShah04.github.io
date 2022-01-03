@@ -8,7 +8,12 @@ import Filter from './Filter/Filter';
 
 const Projects = () => {
 
-  const [required, setRequired] = useState(new Set());
+  const [required, setRequired] = useState([]);
+
+  const filteredProjects = projects.filter(p => {
+    let result = required.length > 0 ? required.some(tag => p.tech.includes(tag)) : true ; 
+    return result;
+  });
 
   return (
     <Section  id="projects">
@@ -17,11 +22,11 @@ const Projects = () => {
       <SectionTitle main>Projects</SectionTitle>
 
       {/* This is the filtering thingy */}
-      <Filter />
+      <Filter current={required} setCurrent={setRequired}/>
 
       {/* This is where projects are showing */}
       <GridContainer>
-        {projects.map((p, p_i) => (
+        {filteredProjects.map((p, p_i) => (
           <Card project={p} key={p_i}/>
         ))}
       </GridContainer>
