@@ -54,13 +54,11 @@ const Technologies = () =>  (
         <DiCode size="3rem" style={{marginBottom: "20px"}}/>
         <ListContainer>
           <ListTitle>Learning</ListTitle>
-          <ListParagraph>
             <ul>
-              <li>ASP.NET (C#)</li>
-              <li>Java</li>
-              <li>Vue.js</li>
+              <li><ListParagraph>ASP.NET (C#)</ListParagraph></li>
+              <li><ListParagraph>Java</ListParagraph></li>
+              <li><ListParagraph>Vue.js</ListParagraph></li>
             </ul>
-          </ListParagraph>
         </ListContainer>
       </ListItem>
   
