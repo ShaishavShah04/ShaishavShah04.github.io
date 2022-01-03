@@ -35,11 +35,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2021, text: 'Worked as a Programming Instructor', subtitle: 'Discover Coding || Apr 2021 - Sep 2021', details: ['Working as a Coding Instructor at a local academy, I strengthened programming fundamentals of students by delivering lesson plans relating to HTML, CSS, JS, and block coding (varying by age).','I leveraged my skills to further the academy\'s vision of equipping youth for the digital economy.'] },
+  { year: 2020, text: 'Started my degree at University of Alberta', subtitle: 'Specialization in Computing Science with Business Minor || 2020 - 2024', details: ['Relevant Courses: Practical Programming Methadology, Software Engineering, Databases, Algorithms and Data Structures','GPA: 4.0 / 4.0'] },
+  { year: 2019, text: 'Cofounded Tech Talk Club', subtitle: 'President || Sep 2019 - Jun 2020', details: ['Tech Talk is a club I co-founded in high school with the goal of spreading both coding skills and digital literacy within our communities. We created workshops that taught Python, HTML, CSS','My role was to lead and coordinate a team of volunteers that would teach these workshops.'] },
 ];
 
 // Set of projects
