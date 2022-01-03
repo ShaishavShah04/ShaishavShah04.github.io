@@ -15,9 +15,14 @@ const Filter = props => {
 
     return (
         <FilterContainer>
+
+            <FilterText>
+                Hover over projects for info and links!
+            </FilterText>
             <FilterText>
                 Click the following tags to filter out the projects!
             </FilterText>
+            
             <FilterTagsContainer>
                 {[...allTags].map((tag, index) => (
                         <FilterButton 

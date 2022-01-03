@@ -21,7 +21,7 @@ const Card = (props) => {
             <AnimateHeight height={ isExtended ? "auto" : 0 } duration={500}>
                 <Hr />
                 {p.description.map( (sentence, i) => <CardInfo key={i}>{sentence}<br/><br/></CardInfo>  )}
-                <a href="www.google.com" style={{ color: 'whitesmoke' }}><FaLink /></a>
+                <a target="_blank" href={p.link} style={{ color: 'whitesmoke' }}><FaLink /></a>
                 <Hr />
             </AnimateHeight>
             <TagList>
