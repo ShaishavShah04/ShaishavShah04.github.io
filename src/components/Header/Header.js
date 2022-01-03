@@ -5,7 +5,6 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-
 const Header = () =>  (
   <Container>
     <Div1>
