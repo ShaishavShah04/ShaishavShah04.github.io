@@ -17,6 +17,7 @@ export const FilterTagsContainer = styled.div`
 `;
 
 export const Button = styled.button`
+    color: white;
     border-radius: 10px;
     padding: 10px;
     margin: 5px 5px 0 0;

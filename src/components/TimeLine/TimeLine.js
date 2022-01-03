@@ -19,7 +19,6 @@ const Timeline = () => {
             <CarouselItem key={index}>
               <RightSideBox>
                 <CarouselItemTitle>{item.year}</CarouselItemTitle>
-                <img src="./media/line.svg" />
               </RightSideBox>
               <LeftSideBox>
                 <TheOtherTitle bold >{item.text}</TheOtherTitle>

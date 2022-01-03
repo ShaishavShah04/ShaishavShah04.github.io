@@ -8,7 +8,6 @@ export const CarouselContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* overflow-x: hidden; */
   margin-left: 32px;
   margin-bottom: 80px;
   @media ${props => props.theme.breakpoints.sm} {
@@ -19,19 +18,15 @@ export const CarouselContainer = styled.div`
 export const CarouselItem = styled.div`
   display: flex;
   flex-direction: row;
-  background: #0F1624;
   border-radius: 3px;
 
   @media ${props => props.theme.breakpoints.md} {
   }
   
   @media ${props => props.theme.breakpoints.sm} {
-    background: #0E131F;
     padding: 4px;
-    align-content: start;
     border-radius: 3px;
     overflow: visible;
-    position: relative;
     height: fit-content;
   }
 `
@@ -41,6 +36,9 @@ export const RightSideBox = styled.div`
   flex-direction: column;
   padding: 2rem;
   border-right: 1px solid rgb(105,105,105,0.3);
+  border: 2px red solid;
+  align-items: center;
+  justify-content: center;
 
   @media ${props => props.theme.breakpoints.md} {
     width: 80px;
@@ -118,19 +116,16 @@ export const CarouselItemTitle = styled.h4`
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  display: flex;
-  flex-direction: column;
+  overflow: visible;
   width: 80px;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 20px;
     line-height: 28px;
-    margin-bottom: 4px;
     width: 50px;
   }
   

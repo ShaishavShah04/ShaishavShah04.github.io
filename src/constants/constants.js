@@ -1,10 +1,24 @@
 export const projects = [
   {
+    "name": "Project-Builder Social Platform",
+    "description": ['A collaboration platform where people can see potential project ideas submitted by others.','It will allow authenticated users to create, view, interact (comment & like), and delete (their own) project ideas.','The Authentication system uses JWT, and therefore, we don\'t have to save any session data'],
+    "tech": ['JWT','Express JS','Node JS','MongoDB Cloud','Authentication','Unit-tests',"API"],
+    "link": "https://github.com/ShaishavShah04/Project-Builder",
+    "img": "./media/projectbuilder.png"
+  },
+  {
       "name": "Algorithmic CryptoCurrency Scanner",
       "description":["A script running on a EC2 instance that scans the cryptocurrency markets hourly. It fetches data from exchanges and analyzes the data for potential bullish indicators.","The results are compared with previously issued alerts to reduce redundancy, and are texted to my number."],
       "tech":["Python", "AWS (Hosting)", "CCXT Library (Data)", "Twilio (Messaging)"],
       "link":"https://github.com/ShaishavShah04/Crypto-Scanner",
       "img": "./media/scanner.png"
+  },
+  {
+    "name": "Carbon Offset",
+    "description":["An ASP.NET web-app which, given a tracking number, informs users of how much they should donate to offset the carbon emissions from their package.","The app queries 3 external APIs to get longitute and latitude points for the route of the package.","This was an app built to get exposure to the C# Language and ASP.NET MVC framework."],
+    "tech":["C#","MVC","ASP.NET","API","HTML","CSS"],
+    "link":"https://github.com/ShaishavShah04/Offset-Carbon-From-Packages/tree/master",
+    "img": "./media/carbon.png"
   }, 
   {
       "name": "Cash Flow Management App",
@@ -16,7 +30,7 @@ export const projects = [
   {
       "name": "Stock Widget",
       "description":["Search up any stock you want and find relevant information such as live prices, change, dividend yield, etc.","The widget also contains an animated graph with the stock price, stock-specific news articles links, and trending stocks worldwide. Just enter the stock ticker you want into the search bar!"],
-      "tech":["Python", "BeautifulSoup4", "Matplotlib"],
+      "tech":["Python", "Matplotlib","Webscraping"],
       "link":"https://github.com/ShaishavShah04/Stock-Widget",
       "img": "media/stock-widget.png"
   }, {
@@ -31,7 +45,7 @@ export const projects = [
     "tech":["React JS", "HTML", "CSS"],
     "link":"https://github.com/ShaishavShah04/Portfolio-Website",
     "img": "media/website.PNG"
-  }        
+  },      
 ];
 
 export const TimeLineData = [
