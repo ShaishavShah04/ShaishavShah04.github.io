@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
-import { CarouselContainer, CarouselItem, CarouselItemText, CarouselItemTitle, RightSideBox, LeftSideBox, TheOtherTitle, TheOtherSubTitle, TheOtherText, List } from './TimeLineStyles';
+import { CarouselContainer, CarouselItem, CarouselItemTitle, RightSideBox, LeftSideBox, TheOtherTitle, TheOtherSubTitle, TheOtherText, List } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
