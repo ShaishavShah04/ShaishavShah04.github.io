@@ -8,7 +8,7 @@ const Technologies = () =>  (
   <Section id="tech" fullHeight style={{ marginTop: "20vh"}}>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies, from back-end to front-end and everything in between!
     </SectionText>

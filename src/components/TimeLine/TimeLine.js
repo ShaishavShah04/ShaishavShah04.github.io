@@ -8,10 +8,10 @@ import { TimeLineData } from '../../constants/constants';
 const Timeline = () => {
 
   return (
-    <Section id="about">
+    <Section id="timeline">
       <SectionDivider />
       <br />
-      <SectionTitle>Time Line</SectionTitle>
+      <SectionTitle main>Time Line</SectionTitle>
       <SectionText>I started to learn programming about 2 years ago, and I've been learning ever since!</SectionText>
       <CarouselContainer>
         <>
