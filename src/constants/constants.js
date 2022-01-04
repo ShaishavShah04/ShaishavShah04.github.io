@@ -44,7 +44,7 @@ export const projects = [
     "description":["My personal portfolio website created using React. The website is coded to read data from a JSON file to ease updating. This is purely front-end."],
     "tech":["React JS", "HTML", "CSS"],
     "link":"https://github.com/ShaishavShah04/Portfolio-Website",
-    "img": "media/website.PNG"
+    "img": "media/website.png"
   },      
 ];
 
