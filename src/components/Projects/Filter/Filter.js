@@ -1,5 +1,5 @@
 import React from 'react';
-import { FilterContainer, FilterText, FilterTagsContainer, Button } from './FilterStyles';
+import { FilterContainer, FilterText, FilterTagsContainer} from './FilterStyles';
 import { allTags } from '../../../constants/constants';
 import FilterButton from './FilterButton/FilterButton';
 
