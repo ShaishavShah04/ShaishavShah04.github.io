@@ -36,7 +36,6 @@ export const RightSideBox = styled.div`
   flex-direction: column;
   padding: 2rem;
   border-right: 1px solid rgb(105,105,105,0.3);
-  border: 2px red solid;
   align-items: center;
   justify-content: center;
 
