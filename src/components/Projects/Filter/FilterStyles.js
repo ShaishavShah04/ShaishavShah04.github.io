@@ -21,7 +21,8 @@ export const Button = styled.button`
     border-radius: 10px;
     padding: 10px;
     margin: 5px 5px 0 0;
-    background: ${(props) => props.active ? '-webkit-linear-gradient(0deg,#915ED5, #16ABC7)' : 'grey'};
+    background: ${(props) => props.active ? '-webkit-linear-gradient(0deg,#915ED5, #16ABC7)' : '#0F1624'};
+    border: 1px solid grey;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
