@@ -1,5 +1,11 @@
 export const projects = [
   {
+    "name": "MealDrop",
+    "description":["A complete, full-stack application that helps solve food waste! Restaurants with extra food can create a posting. Once a food bank notices a nearby posting, they can submit a pickup request and collect the extra food."],
+    "tech":['JWT','Express JS','Node JS','MongoDB Cloud','Authentication',"API", "React", "Heroku"],
+    "link":"https://github.com/PalaashKolhe/Meal-Drop",
+    "img": "media/mealdrop.png"
+  },{
     "name": "Project-Builder Social Platform",
     "description": ['A collaboration platform where people can see potential project ideas submitted by others.','It will allow authenticated users to create, view, interact (comment & like), and delete (their own) project ideas.','The Authentication system uses JWT, and therefore, we don\'t have to save any session data'],
     "tech": ['JWT','Express JS','Node JS','MongoDB Cloud','Authentication','Unit-tests',"API"],
@@ -45,7 +51,7 @@ export const projects = [
     "tech":["React JS", "HTML", "CSS"],
     "link":"https://github.com/ShaishavShah04/Portfolio-Website",
     "img": "media/website.png"
-  },      
+  }
 ];
 
 export const TimeLineData = [

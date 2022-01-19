@@ -9,7 +9,7 @@ const Footer = () => {
     <FooterWrapper>
 
       <MessageContainer>
-        <Slogan>Don't hesitate to contact me at <LinkItem href="mailto:shaishav.shah04@gmail.com">shaishav.shah04@gmail.com</LinkItem> for any questions!</Slogan>
+        <Slogan><LinkItem href="mailto:shaishav.shah04@gmail.com">shaishav.shah04@gmail.com</LinkItem></Slogan>
       </MessageContainer>
 
       <SocialIconsContainer>
