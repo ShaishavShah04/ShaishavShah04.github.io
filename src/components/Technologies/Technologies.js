@@ -21,8 +21,9 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
             <ul>
               <li><ListParagraph>React.js</ListParagraph></li>
-              <li><ListParagraph>HTML/CSS</ListParagraph></li>
+              <li><ListParagraph>Vue.js</ListParagraph></li>
               <li><ListParagraph>JavaScript</ListParagraph></li>
+              <li><ListParagraph>HTML/CSS</ListParagraph></li>
             </ul>
         </ListContainer>
       </ListItem>
@@ -32,8 +33,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
             <ul>
-              <li><ListParagraph>Express.js</ListParagraph></li>
-              <li><ListParagraph>Node.js</ListParagraph></li>
+              <li><ListParagraph>Express.js + Node.js</ListParagraph></li>
+              <li><ListParagraph>Java SpringBoot</ListParagraph></li>
               <li><ListParagraph>Python</ListParagraph></li>
               <li><ListParagraph>C / C++</ListParagraph></li>
             </ul>
@@ -46,6 +47,7 @@ const Technologies = () =>  (
             <ul>
               <li><ListParagraph>SQL</ListParagraph></li>
               <li><ListParagraph>MongoDB</ListParagraph></li>
+              <li><ListParagraph>Firestore</ListParagraph></li>
             </ul>
         </ListContainer>
       </ListItem>
@@ -56,8 +58,6 @@ const Technologies = () =>  (
           <ListTitle>Learning</ListTitle>
             <ul>
               <li><ListParagraph>ASP.NET (C#)</ListParagraph></li>
-              <li><ListParagraph>Java</ListParagraph></li>
-              <li><ListParagraph>Vue.js</ListParagraph></li>
             </ul>
         </ListContainer>
       </ListItem>
