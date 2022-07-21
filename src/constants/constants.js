@@ -11,6 +11,12 @@ export const projects = [
     "tech": ['JWT','Express JS','Node JS','MongoDB Cloud','Authentication','Unit-tests',"API"],
     "link": "https://github.com/ShaishavShah04/Project-Builder",
     "img": "./media/projectbuilder.png"
+  },{
+    "name": "QR Code Game",
+    "description":["A game allowing users to compete with other users to score nearby QR codes.", "Each QR code scanned is uploaded with a location and photo, adding points to your account","Other players can see this QR code on the map along with the image of surroundings! They can collect it for points", "You can also interact with other players by the leaderboards, searching, commenting, etc."],
+    "tech":["Java", "Android", "Firebase","Google Cloud","Google Maps API"],
+    "link":"https://github.com/CMPUT301W22T23/QR-Code-Game",
+    "img": "./media/qrcodegame.png"
   },
   {
       "name": "Algorithmic CryptoCurrency Scanner",
@@ -55,6 +61,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
+  { year: 2022, text: 'My first Software Development Role', subtitle: 'Niricson Software Inc. || Apr 2022 - Aug 2022', details: [
+    "Being my first software development internship, I learned a lot about technical standards and industry practices. Everything from comments to CI/CD on git!",
+    "I worked on everything ranging from automation projects to reserve, use, and terminate GPU instances to fullstack development to implement new features!",
+    "Within fullstack development, I was heavily involved in working with geospatial data. I was involved in the entire process -- from creating a more efficient storage solution to visualizing over 500,000+ data points dynamically, allowing for full user customization!",
+    "Java Spring Boot, Vue JS, MongoDB, AWS RDS (SQL DB), S3"
+  ]},
   { year: 2021, text: 'Worked as a Programming Instructor', subtitle: 'Discover Coding || Apr 2021 - Sep 2021', details: ['Working as a Coding Instructor at a local academy, I strengthened programming fundamentals of students by delivering lesson plans relating to HTML, CSS, JS, and block coding (varying by age).','I leveraged my skills to further the academy\'s vision of equipping youth for the digital economy.'] },
   { year: 2020, text: 'Started my degree at University of Alberta', subtitle: 'Specialization in Computing Science with Business Minor || 2020 - 2024', details: ['Relevant Courses: Practical Programming Methadology, Software Engineering, Databases, Algorithms and Data Structures','GPA: 4.0 / 4.0'] },
   { year: 2019, text: 'Cofounded Tech Talk Club', subtitle: 'President || Sep 2019 - Jun 2020', details: ['Tech Talk is a club I co-founded in high school with the goal of spreading both coding skills and digital literacy within our communities. We created workshops that taught Python, HTML, CSS','My role was to lead and coordinate a team of volunteers that would teach these workshops.'] },

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiCode } from 'react-icons/di';
-import { BsPlug, BsFillAspectRatioFill } from "react-icons/bs";
+import { BsPlug, BsFillAspectRatioFill, BsFillCloudFill } from "react-icons/bs";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -40,6 +40,8 @@ const Technologies = () =>  (
             </ul>
         </ListContainer>
       </ListItem>
+
+
       <ListItem>
         <DiFirebase size="3rem" style={{marginBottom: "20px"}} />
         <ListContainer>
@@ -51,16 +53,34 @@ const Technologies = () =>  (
             </ul>
         </ListContainer>
       </ListItem>
+      
+      <ListItem>
+        <BsFillCloudFill size="3rem" style={{marginBottom: "20px"}}/>
+        <ListContainer>
+          <ListTitle>Cloud</ListTitle>
+            <ul>
+              <li><ListParagraph>EC2</ListParagraph></li>
+              <li><ListParagraph>SES / SNS</ListParagraph></li>
+              <li><ListParagraph>RDS</ListParagraph></li>
+              <li><ListParagraph>S3</ListParagraph></li>
+              <li><ListParagraph>Google Cloud + Firebase</ListParagraph></li>
+            </ul>
+        </ListContainer>
+      </ListItem>
 
       <ListItem>
         <DiCode size="3rem" style={{marginBottom: "20px"}}/>
         <ListContainer>
           <ListTitle>Learning</ListTitle>
             <ul>
+              <li><ListParagraph>BlockChain</ListParagraph></li>
+              <li><ListParagraph>Solidity (Smart Contracts)</ListParagraph></li>
               <li><ListParagraph>ASP.NET (C#)</ListParagraph></li>
+
             </ul>
         </ListContainer>
       </ListItem>
+
   
     </List>
   </Section>
