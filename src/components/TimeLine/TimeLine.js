@@ -12,7 +12,7 @@ const Timeline = () => {
       <SectionDivider />
       <br />
       <SectionTitle main>Time Line</SectionTitle>
-      <SectionText>I started my programming journey about 4 years ago, and I've been learning ever since!</SectionText>
+      <SectionText>I started my programming journey about 7 years ago, and I've been learning ever since!</SectionText>
       <CarouselContainer>
         <>
           {TimeLineData.map((item, index)=>(

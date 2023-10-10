@@ -61,6 +61,15 @@ export const projects = [
 ];
 
 export const TimeLineData = [
+  { year: 2023, text: 'Pushing Boundries', subtitle: 'Palantir || May 2023 - Aug 2023', details: [
+    "I really enjoyed my time at Palantir! I was a intern working across the entire stack, responsible for ensuring the backend and frontend all had the necessary changes to bring my features to life. I was placed within a great team, and was working on the interesting AI related work within the company. Here are a few notable achievements:",
+    "Led AIP Assist development by creating specialized plugins and selection logic to leveraging proprietary LLMs, supporting multi-step queries, and growing usage by 62% .",
+    "Developed an internal tool to answer developer queries by performing semantic search by leveraging sharded codebase, and passing results as context while optimizing for token limits.",
+    "Devised migration strategies to further decompose user permissions into smaller operations, allowing support for granular access control and view-only modes.",
+    "Optimized Java services with caching, proxy objects, and multi-threading, reducing the p99 latency for orchestration endpoints by over 41%.",
+    "Engineered performant, lightweight, and modular pages using Typescript and React, leveraging dynamic imports to reduce initial load times by 14% and enhance user state rendering.",
+    "Java, Typescript, React, LLMs, Semantic Search, Chat Bots"
+  ]},
   { year: 2022, text: 'My first Software Development Role', subtitle: 'Niricson Software Inc. || Apr 2022 - Aug 2022', details: [
     "Being my first software development internship, I learned a lot about technical standards and industry practices. Everything from comments to CI/CD on git!",
     "I worked on everything ranging from automation projects to reserve, use, and terminate GPU instances to fullstack development to implement new features!",
