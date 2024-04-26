@@ -1,12 +1,5 @@
 export const projects = [
   {
-	  "name": "Oasis",
-    "description":["TreeHacks 2024 Winner!", "Oasis is a groundbreaking platform that leverages AI agents to streamline the parsing, indexing, and analysis of sustainability data from official government and corporate ESG reports.","It provides an interface for companies to assess their records and converse with an AI agent that has access to their sustainability data. The agent helps them benchmark their practices against practices of similar companies and narrow down ways that they can improve through conversation."],
-    "tech":['LLM','LangChain','Vector DB','RAG','Chatbot','Semantic Similarity'],
-    "link":"https://youtu.be/WqIzBEMv1_Q",
-    "img": "media/oasis.jpg"
-  },
-  {
     "name": "MealDrop",
     "description":["A complete, full-stack application that helps solve food waste! Restaurants with extra food can create a posting. Once a food bank notices a nearby posting, they can submit a pickup request and collect the extra food."],
     "tech":['JWT','Express JS','Node JS','MongoDB Cloud','Authentication',"API", "React", "Heroku"],
